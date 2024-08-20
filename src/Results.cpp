@@ -262,7 +262,7 @@ namespace mariadb
       }
       else {
 
-        auto& it= executionResults.begin();
+        const auto& it= executionResults.begin();
 
         if (it != executionResults.end())
         {
