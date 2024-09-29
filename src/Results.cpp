@@ -105,13 +105,6 @@ namespace mariadb
     }
   }
 
-  Results::~Results()
-  {
-    if (statement && statement->getProtocol()) {
-      loadFully(true, statement->getProtocol());
-    }
-  }
-
   /**
    * Add execution statistics.
    *
