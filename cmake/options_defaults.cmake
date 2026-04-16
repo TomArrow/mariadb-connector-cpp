@@ -6,6 +6,7 @@
 #  For details see the COPYING-CMAKE-SCRIPTS file.
 #
 
+OPTION(NO_COMPILE_FLAGS_REWRITE "Don't rewrite compile options (when subproject)" OFF)
 OPTION(IGNORE_PACKAGING "Ignore packaging (when subproject and such)" OFF)
 OPTION(CONC_WITH_UNIT_TESTS "Build C/C unit tests" OFF)
 OPTION(WITH_ASAN "Compile with ASAN" OFF)
